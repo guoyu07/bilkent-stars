@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugu.ilkproje"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.tugu.ilkproje.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoTitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.GradesActivity"
+            android:label="@string/title_activity_grades" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.ExamsActivity"
+            android:label="@string/title_activity_exams" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.AttendanceActivity"
+            android:label="@string/title_activity_attendance" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.CourseActivity"
+            android:label="@string/title_activity_course" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.InformationActivity"
+            android:label="@string/title_activity_information" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.ScheduleActivity"
+            android:label="@string/title_activity_schedule" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.TranscriptActivity"
+            android:label="@string/title_activity_transcript" >
+        </activity>
+        <activity
+            android:name="com.tugu.ilkproje.CurriculumActivity"
+            android:label="@string/title_activity_curriculum" >
+        </activity>
+    </application>
+
+</manifest>

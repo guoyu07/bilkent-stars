@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IlkProje</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">İlk Uygulamamız Hayırlı Olsun! degistirdim ki ben bunuuuu :)</string>
+    <string name="login">Login</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_info">Information</string>
+    <string name="activity_info">Made by Tuğba DOĞAN &amp; Cihad ÖGE</string>
+    <string name="title_activity_grades">Grades</string>
+    <string name="title_activity_exams">Exams</string>
+    <string name="title_activity_attendance">Attendance</string>
+    <string name="title_activity_course">Courses</string>
+    <string name="title_activity_information">Information Card</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_transcript">Transcript</string>
+    <string name="title_activity_curriculum">Curriculum</string>
+
+</resources>

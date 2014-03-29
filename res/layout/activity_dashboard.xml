@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+	xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+	xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      	<LinearLayout
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="wrap_content"
+      		android:orientation="horizontal">
+	      	<!-- Circle Thumbnail with Image -->
+			<com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+			    android:id="@+id/thumbnailOneTest"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="10dp"
+			    bootstrap:bct_image="@drawable/bilkent_logo"
+			    bootstrap:bct_size="medium"/>
+	      	<TextView 
+	      	    android:id="@+id/studentinfo"
+	      	    android:layout_width="match_parent"
+	      	    android:layout_height="wrap_content"
+	      	    android:paddingTop="10dp"
+	      	    android:paddingBottom="10dp"/>
+      	</LinearLayout>
+	    <TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_gravity="center_horizontal">
+	        
+	        <TableRow
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:baselineAligned="false"
+	            android:orientation="horizontal"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_weight="1">
+					<com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/grades_button"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:layout_height="wrap_content"
+		                android:text="Grades"
+		                android:textColor="@color/bbutton_primary"
+		                bootstrapbutton:bb_icon_left="fa-star"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="default" />    
+		            <com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/exams_button"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:layout_height="wrap_content"
+		                android:text="Exams"
+		                android:textColor="@color/bbutton_primary"
+		                bootstrapbutton:bb_icon_left="fa-calendar"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="default" />
+	        </TableRow>
+	        
+	        <TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:baselineAligned="false"
+	            android:layout_weight="1"
+	            android:layout_gravity="center_horizontal">
+					<com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/attendance_button"
+		                android:layout_height="wrap_content"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:text="Attendance"
+		                android:textColor="@color/bbutton_primary"
+		                bootstrapbutton:bb_icon_left="fa-check"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="default" />  
+		            <com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/schedule_button"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:layout_height="wrap_content"
+		                android:text="Schedule"
+		                android:textColor="@color/bbutton_primary"
+		                bootstrapbutton:bb_icon_left="fa-table"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="default" />      
+	        </TableRow>
+	        
+	        <TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:baselineAligned="false"
+	            android:layout_weight="1"
+	            android:layout_gravity="center_horizontal">
+					<com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/transcript_button"
+		                android:layout_height="wrap_content"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:text="Transcript"
+		                android:textColor="@color/bbutton_primary"
+		                bootstrapbutton:bb_icon_left="fa-file-text"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="default" />    
+		            <com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/curriculum_button"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:layout_height="wrap_content"
+		                android:text="Curriculum"
+		                android:textColor="@color/bbutton_primary"
+		                bootstrapbutton:bb_icon_left="fa-clipboard"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="default" />
+	        </TableRow>
+	        
+	        <TableRow
+	            android:layout_width="fill_parent"
+				android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:baselineAligned="false"
+	            android:layout_gravity="center_horizontal">
+					<com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/information_button"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:layout_height="wrap_content"
+		                android:text="Information"
+		                android:textColor="@color/bbutton_primary"
+		                bootstrapbutton:bb_icon_left="fa-user"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="default" />
+					<com.beardedhen.androidbootstrap.BootstrapButton
+		                android:id="@+id/logout_button"
+		                android:layout_width="fill_parent"
+		                android:layout_weight="1"
+		                android:layout_height="wrap_content"
+		                android:text="Logout"
+		                android:textColor="@color/bbutton_danger"
+		                android:layout_span="2"
+		                bootstrapbutton:bb_icon_left="fa-power-off"
+		                bootstrapbutton:bb_size="large"
+		                bootstrapbutton:bb_type="danger" />       
+	        </TableRow>
+	    </TableLayout>
+	</LinearLayout>
+</ScrollView>
